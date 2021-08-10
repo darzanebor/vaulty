@@ -7,7 +7,7 @@ from jinja2 import Template
 import hvac
 
 
-class aws_vaulty:
+class Vaulty:
     """Vaulty Class"""
 
     def gen_data(self, vault_client):
@@ -133,5 +133,5 @@ class aws_vaulty:
 
 
 if __name__ == "__main__":
-    vaulty = aws_vaulty()
+    vaulty = Vaulty()
     vaulty.get_secrets()
