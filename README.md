@@ -9,7 +9,7 @@
 | VAULT_ADDR | | https://vault.example.com:8200 |
 | VAULT_ROLE | | aws_readonly |
 | VAULT_TTL | 3600 | 60 |
-| VAULT_AUTH | radis or approle or ldap | ldap |
+| VAULT_AUTH | radius or approle or ldap | ldap |
 | VAULT_CRED | to stdout | ./credentials |
 | VAULT_MOUNT | | secret |
 | VAULT_SECRET | | gitlab |
