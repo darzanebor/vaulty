@@ -1,5 +1,4 @@
-ARG REGISTRY_GROUP_URL
-FROM ${REGISTRY_GROUP_URL}/alphaceti/default-python:0.1
+FROM alphaceti/default-python:0.1
 ARG VAULT_AUTH \
     VAULT_ADDR \
     VAULT_USER \
