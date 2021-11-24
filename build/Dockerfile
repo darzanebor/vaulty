@@ -1,4 +1,4 @@
-FROM alphaceti/default-python:0.1.3 as base
+FROM alphaceti/default-python:0.1.5 as base
 ENV PROMETHEUS_MULTIPROC_DIR="/usr/src/app/prometheus" \
     PATH="${PATH}:/home/vaulty/.local/bin" \
     PYTHONWARNINGS="ignore:Unverified HTTPS request"
