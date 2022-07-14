@@ -12,7 +12,6 @@ class Vaulty:
 
     def gen_data(self, vault_client):
         """ generate aws credentials or get latest secret  from vault"""
-
         if "aws" in self.vault_mount:
             return vault_client.secrets.aws.generate_credentials(
                 name=self.vault_role,
